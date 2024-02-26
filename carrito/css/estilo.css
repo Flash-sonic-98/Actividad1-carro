@@ -1,0 +1,109 @@
+.contenedor{
+    background-image: url(../imagen/cuidad.png);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    
+}
+.fondomover{
+    animation: fondoMover 5s infinite linear;
+}
+.carrito img {
+    position: absolute;
+    height: 40vh;
+    width: 70%;
+   top: 35rem;
+   left: 20rem;
+}
+
+.llantacas1{
+    position: absolute;
+    
+    width: 15%;
+    background-repeat: no-repeat;
+   left: 45vh;
+   top: 80vh;
+
+}
+
+.llantacas2{
+ position: absolute;
+width: 10%;
+background-repeat: no-repeat;
+left: 130vh;
+top: 80vh;
+
+}
+
+.llano{
+    
+}
+.llantamover{
+    animation: llantacasmover 1s infinite linear ;
+}
+
+
+.parpadeo img{
+    position: absolute;
+    width: 25%;
+    top:55vh;
+    left: 150vh;
+    
+}
+
+.parpadeopare{
+    animation: parpadeo 2s infinite linear;
+}
+.humo{
+    width: 350px;
+    height: 200px;
+    background: url("../imagen/polvo.png");
+    position: absolute;
+    top: 44rem;
+    left: 1rem;
+   
+}
+
+.humomover{
+    animation: humo 2s infinite steps(15);
+}
+
+
+
+
+
+
+@keyframes llantacasmover{
+
+    100%{
+        transform: rotate(350deg );
+    }
+
+}
+
+
+
+
+@keyframes parpadeo{
+
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes fondoMover{
+
+    100%{
+        background-position-x: -2000px;
+    }
+
+}
+@keyframes humo {
+    100%{
+        background-position-x: -785px;
+    }
+}
