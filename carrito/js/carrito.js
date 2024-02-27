@@ -12,5 +12,7 @@ function fondiu(){
     llantacas2.classList.add('llantamover')
     humo.classList.add('humomover')
     parpadeo.classList.add('parpadeopare')
+    humo.classList.remove('oculto')
+    parpadeo.classList.remove('oculto')
 
 }

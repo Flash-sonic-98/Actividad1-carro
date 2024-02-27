@@ -50,7 +50,9 @@ top: 80vh;
     left: 150vh;
     
 }
-
+.oculto{
+    display: none;
+}
 .parpadeopare{
     animation: parpadeo 2s infinite linear;
 }
